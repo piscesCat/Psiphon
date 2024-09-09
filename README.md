@@ -1,21 +1,21 @@
 # RE Brainfuck Tunnel - Psiphon Pro Go Version
 
-## Requirements
+## Các yêu cầu
 
 **Android:**
 
-Download termux and SocksDroid [here](https://trongtinh7727-my.sharepoint.com/:f:/g/personal/tinhne_trongtinh7727_onmicrosoft_com/EhA2kJ7nk9BLiStnHO8fXNYBgniadOd-FrHQuvWm1vML2g?e=ZKIhxM "Link download")
+Download Termux và SocksDroid [Ở đây](https://trongtinh7727-my.sharepoint.com/:f:/g/personal/tinhne_trongtinh7727_onmicrosoft_com/EhA2kJ7nk9BLiStnHO8fXNYBgniadOd-FrHQuvWm1vML2g?e=ZKIhxM "Link download")
 
-    - Termux: git
+    - Termux
     - SocksDroid
 
-## Install
+## Cài đặt
 
-**Open termux and run:**
+**Mở termux và chạy:**
 
-    pkg install git && git clone https://github.com/trongtinh7727/Psiphon.git && clear && cd Psiphon && chmod a+x tun && chmod a+x psiphon-tunnel-core && echo 'PATH="$PATH:$HOME/Psiphon"' >> $HOME/.bashrc && source $HOME/.bashrc && echo 'PATH="$PATH:$HOME/Psiphon"' >> $HOME/.zshrc && source $HOME/.zshrc && clear && cd
+    pkg install -y wget tar && wget -O psiphon.tar.gz https://github.com/piscesCat/Psiphon/archive/refs/tags/psiphon.tar.gz && tar -xvzf psiphon.tar.gz && cd Psiphon-psiphon && chmod a+x tun && chmod a+x psiphon-tunnel-core && echo 'PATH="$PATH:$HOME/Psiphon-psiphon"' >> $HOME/.bashrc && source $HOME/.bashrc && echo 'PATH="$PATH:$HOME/Psiphon-psiphon"' >> $HOME/.zshrc && source $HOME/.zshrc && clear && cd
     
-## Configuration & Usage:
+## Cấu hình & Cách sử dụng:
 -----
 **Android (Termux)**
 
