@@ -1,6 +1,6 @@
 # RE Brainfuck Tunnel - Psiphon Pro Go Version
 
-    - Chỉ dành cho mạng Viettel (Việt Nam) và thiết bị Android.
+Chỉ dành cho mạng Viettel (Việt Nam) và thiết bị Android.
 
 ## Các yêu cầu
 
