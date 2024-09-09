@@ -18,12 +18,14 @@ Download Termux và SocksDroid [Ở đây](https://trongtinh7727-my.sharepoint.c
 ## Cấu hình & Cách sử dụng:
 
 **Bước 1: Thiết lập SocksDroid:**
+
     - DNS Server: 203.113.131.6
     - App List: Include com.termux.
     - Enable: Connect on Boot, Pre-app proxy, Bypass Mode.
     - Activate SocksDroid.
     
 **Step2 Termux:**
+
     - Nhập `~./tun` và enter
     - Enjoy!
     
