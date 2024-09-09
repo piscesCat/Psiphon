@@ -16,9 +16,6 @@ Download Termux và SocksDroid [Ở đây](https://trongtinh7727-my.sharepoint.c
     pkg install -y wget tar && wget -O psiphon.tar.gz https://github.com/piscesCat/Psiphon/archive/refs/tags/psiphon.tar.gz && tar -xvzf psiphon.tar.gz && cd Psiphon-psiphon && chmod a+x tun && chmod a+x psiphon-tunnel-core && echo 'PATH="$PATH:$HOME/Psiphon-psiphon"' >> $HOME/.bashrc && source $HOME/.bashrc && echo 'PATH="$PATH:$HOME/Psiphon-psiphon"' >> $HOME/.zshrc && source $HOME/.zshrc && clear && cd
     
 ## Cấu hình & Cách sử dụng:
------
-**Android (Termux)**
-
 ### Step1 - SocksDroid Setup:
     $ DNS Server: 203.113.131.6
     $ App List: Include com.termux.
