@@ -30,7 +30,7 @@ Chỉ dành cho mạng Viettel (Việt Nam) và thiết bị Android.
     - Enjoy!
 **Note**
 
-    Bạn cần chạy Bước 1 và Bước 2 mỗi lần khởi động lại điện thoại. Lưu ý ở bước 2 sẽ xuất hiện chữ "connected"
+Bạn cần chạy Bước 1 và Bước 2 mỗi lần khởi động lại điện thoại. Lưu ý ở bước 2 sẽ xuất hiện chữ "connected"
     
 
 ![image](https://github.com/trongtinh7727/Psiphon/assets/72309458/af561b91-d232-4798-b01c-ffacd913a901)
