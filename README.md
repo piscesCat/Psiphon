@@ -13,7 +13,7 @@ Download Termux và SocksDroid [Ở đây](https://trongtinh7727-my.sharepoint.c
 
 **Mở termux và chạy:**
 
-    pkg install -y wget tar && wget -O psiphon.tar.gz https://github.com/piscesCat/Psiphon/archive/refs/tags/psiphon.tar.gz && tar -xvzf psiphon.tar.gz && cd Psiphon-psiphon && chmod a+x tun && chmod a+x psiphon-tunnel-core && echo 'PATH="$PATH:$HOME/Psiphon-psiphon"' >> $HOME/.bashrc && source $HOME/.bashrc && echo 'PATH="$PATH:$HOME/Psiphon-psiphon"' >> $HOME/.zshrc && source $HOME/.zshrc && clear && cd
+    pkg install -y wget tar && cd ~ && wget -O psiphon.tar.gz https://github.com/piscesCat/Psiphon/archive/refs/tags/psiphon.tar.gz && tar -xvzf psiphon.tar.gz && cd Psiphon-psiphon && chmod a+x tun && chmod a+x psiphon-tunnel-core && echo 'PATH="$PATH:$HOME/Psiphon-psiphon"' >> $HOME/.bashrc && source $HOME/.bashrc && echo 'PATH="$PATH:$HOME/Psiphon-psiphon"' >> $HOME/.zshrc && source $HOME/.zshrc && clear && cd
     
 ## Cấu hình & Cách sử dụng:
 
@@ -24,7 +24,7 @@ Download Termux và SocksDroid [Ở đây](https://trongtinh7727-my.sharepoint.c
     - Activate SocksDroid.
     
 **Step2 Termux:**
-    - Nhập `./tun` và enter
+    - Nhập `~./tun` và enter
     - Enjoy!
     
 
