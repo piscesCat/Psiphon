@@ -42,15 +42,9 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 4. Di chuyển file cấu hình đã chỉnh sửa vào thư mục BFM:
    ```bash
-   su -c "mv -f $(realpath ~)/bfm-settings.ini /data/adb/box/settings.ini"
+   su -c "mv -f $(realpath ~)/bfm-settings.ini /data/adb/box/settings.ini && mv -f $(realpath ~)/psiphon/bfm-clash-config.yaml /data/adb/box/clash/config.yaml"
    ```
-
-5. Di chuyển file cấu hình Clash vào thư mục BFM:
-   ```bash
-   su -c "mv -f $(realpath ~)/psiphon/bfm-clash-config.yaml /data/adb/box/clash/config.yaml"
-   ```
-
-6. Khởi động lại BFM
+5. Khởi động lại BFM
    ```bash
    su -c /data/adb/box/scripts/box.service restart
    ```
