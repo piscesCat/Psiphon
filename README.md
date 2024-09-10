@@ -21,7 +21,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 ## SỬ DỤNG CHO MÁY ĐÃ ROOT
 
-- Nếu điện thoại bạn đã root có thể bỏ qua NekoBox. Sau khi cài đặt Psiphon, làm tiếp các như sau.
+- Nếu điện thoại bạn đã root thì có thể chạy ngầm mà không cần app VPN như NekoBox như sau.
 
 **Tải và cài đặt module Magisk/APatch Box For Magisk**
 
