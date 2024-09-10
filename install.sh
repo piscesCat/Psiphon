@@ -4,10 +4,6 @@ if ! command -v tar &> /dev/null; then
     pkg install tar -y
 fi
 
-if ! command -v curl &> /dev/null; then
-    pkg install curl -y
-fi
-
 cd ~
 
 echo "Downloading Psiphon source..."
