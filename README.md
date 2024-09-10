@@ -20,8 +20,11 @@ Free data chỉ dành cho mạng Viettel (Việt Nam) và các thiết bị Andr
 **Bước 1: Thiết lập NekoBox**
 
 - Settings > Direct DNS: `203.113.131.6` hoặc `203.113.131.1`
+![IMG_7431](https://github.com/user-attachments/assets/8b822359-934b-4900-8b96-93a3fc72b2aa)
 - Settings > Apps VPN mode > Bypass: Chọn Termux và các apps sẽ không chạy VPN (VD: VNCDroidNG)
+![IMG_7430](https://github.com/user-attachments/assets/0bf1a2be-867b-4bc4-a370-092d237efd66)
 - Settings: Bật Auto Connect
+![IMG_7429](https://github.com/user-attachments/assets/d3640353-f435-4c80-85bc-c4217e135d6b)
 - Dấu (+) > Manual Settings > SOCKS > Profile Name (tên bất kỳ): Version SOCKS5, Server 127.0.0.1, Port 1080
     
 **Bước 2: Mở Termux và chạy lần đầu**
@@ -32,8 +35,4 @@ Free data chỉ dành cho mạng Viettel (Việt Nam) và các thiết bị Andr
 **NOTE:**
 
 Script này đã kèm cài đặt trên Termux:Boot. Khi bạn khởi động lại máy `psiphon-tun` sẽ tự động khởi động. Nếu `psiphon-tun` và NekoBox không tự khởi động hãy chạy nó thủ công. Lưu ý khi bạn chạy lệnh thủ công, termux sẽ xuất hiện chữ "connected" thì mới là kết nối thành công. Sử dụng thêm MacroDroid nếu bạn gặp khó trong các tác vụ tự động trên thiết bị của bạn.
-
-![IMG_7431](https://github.com/user-attachments/assets/8b822359-934b-4900-8b96-93a3fc72b2aa)
-![IMG_7430](https://github.com/user-attachments/assets/0bf1a2be-867b-4bc4-a370-092d237efd66)
-![IMG_7429](https://github.com/user-attachments/assets/d3640353-f435-4c80-85bc-c4217e135d6b)
 ![IMG_7428](https://github.com/user-attachments/assets/f7db9ec9-33e4-4d53-9e3a-10480e7a70af)
