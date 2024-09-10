@@ -95,7 +95,12 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 **Các bước tiến hành:**
 
-- ...
+- Cấp quyền MacroDroid
+    su -c pm grant com.arlosoft.macrodroid com.termux.permission.RUN_COMMAND
+
+- Nhập macro tự khởi chạy vào MacroDroid trong phần Nhập/Xuất trong app.
+
+- Bật công tắc macro để macro có hiệu lực
 
 **NOTE:**
 
@@ -103,8 +108,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 ![IMG_7428](https://github.com/user-attachments/assets/f7db9ec9-33e4-4d53-9e3a-10480e7a70af)
 
-- Sử dụng thêm MacroDroid nếu bạn gặp khó trong các tác vụ tự động trên thiết bị của bạn.
-- Để huỷ tự khởi động, chạy lệnh `rm ~/.termux/boot/psiphon-tun-auto-boot.sh` và tắt Auto Connect trong app NekoBox.
+- Để huỷ tự khởi động, tắt công tắc macro Auto Start Psiphon trong app MacroDroid, tắt Auto Connect trong app NekoBox / Tắt module BFM trong Magisk/APatch
 - Chương trình được lưu trữ tại: `~/psiphon`
 
 ![IMG_7435](https://github.com/user-attachments/assets/a3ad2526-970d-497b-b95f-63b0b590b5db)
