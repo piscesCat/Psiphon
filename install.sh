@@ -19,12 +19,14 @@ mkdir -p ~/psiphon
 tar -xzvf viettel-free-data.tar.gz -C ~/psiphon --strip-components=1 > /dev/null 2>&1
 
 chmod a+x ~/psiphon/psiphon-tun
-chmod a+x ~/psiphon/psiphon-tun-auto-boot.sh
+chmod a+x ~/psiphon/psiphon-tun-auto-start.sh
 chmod a+x ~/psiphon/psiphon-tunnel-core
 
 mkdir -p ~/.termux/boot/
+mkdir -p ~/.termux/tasker/
 
-cp -f ~/psiphon/psiphon-tun-auto-boot.sh ~/.termux/boot/
+cp -f ~/psiphon/psiphon-tun-auto-start.sh ~/.termux/boot/
+cp -f ~/psiphon/psiphon-tun-auto-start.sh ~/.termux/tasker/
 
 rm viettel-free-data.tar.gz
 
