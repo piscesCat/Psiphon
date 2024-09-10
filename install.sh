@@ -17,6 +17,7 @@ mkdir -p ~/psiphon
 tar -xzvf freedata.tar.gz -C ~/psiphon --strip-components=1 > /dev/null 2>&1
 
 chmod a+x ~/psiphon/psiphon-tun
+chmod a+x ~/psiphon/psiphon-login
 chmod a+x ~/psiphon/psiphon-tunnel-core
 
 rm freedata.tar.gz
