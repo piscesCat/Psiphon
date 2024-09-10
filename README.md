@@ -4,9 +4,9 @@ Free data chỉ dành cho mạng Viettel (Việt Nam) và thiết bị Android. 
 
 ## Các yêu cầu
 
-**Download Termux và SocksDroid**
+**Download Termux và NekoBox**
 - [Termux](https://f-droid.org/packages/com.termux/)
-- [SocksDroid](https://github.com/bndeff/socksdroid/releases)
+- [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)
 
 ## Cài đặt
 
@@ -16,24 +16,21 @@ Free data chỉ dành cho mạng Viettel (Việt Nam) và thiết bị Android. 
     
 ## Cấu hình & Cách sử dụng:
 
-**Bước 1: Thiết lập SocksDroid**
+**Bước 1: Thiết lập NekoBox**
 
-- DNS Server:
-    203.113.131.6
-- App List:
-    com.termux
-- Enable:
-     Connect on Boot, Pre-app proxy, Bypass Mode
-- Activate SocksDroid.
+- Settings > Direct DNS: `203.113.131.6` hoặc `203.113.131.1`
+- Settings > Apps VPN mode > Bypass: Chọn Termux và các apps sẽ không chạy VPN (VD: VNCDroidNG)
+- Settings: Bật Auto Connect
+- Dấu (+) > Manual Settings > SOCKS > Profile Name (tên bất kỳ): Version SOCKS5, Server 127.0.0.1, Port 1080
     
 **Bước 2: Mở Termux và chạy**
 
 - Nhập `psiphon-tun` và enter
 - Enjoy!
 
-**Note**
+**NOTE:**
 
-Bạn cần chạy `psiphon-tun` và kích hoạt SocksDroid mỗi lần khởi động lại điện thoại. Lưu ý termux sẽ xuất hiện chữ "connected" thì mới là kết nối thành công.
+Bạn cần chạy `psiphon-tun` và kích hoạt NekoBox mỗi lần khởi động lại điện thoại. Lưu ý termux sẽ xuất hiện chữ "connected" thì mới là kết nối thành công.
     
 
 ![image](https://github.com/trongtinh7727/Psiphon/assets/72309458/af561b91-d232-4798-b01c-ffacd913a901)
