@@ -28,8 +28,9 @@ Chỉ dành cho mạng Viettel (Việt Nam) và thiết bị Android.
     
 **Bước 2: Mở Termux và chạy**
 
-    - Nhập `psiphon-tun` và enter
-    - Enjoy!
+- Nhập `psiphon-tun` và enter
+- Enjoy!
+
 **Note**
 
 Bạn cần chạy Bước 1 và Bước 2 mỗi lần khởi động lại điện thoại. Lưu ý ở bước 2 sẽ xuất hiện chữ "connected"
