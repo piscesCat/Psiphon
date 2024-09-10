@@ -23,7 +23,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 ![IMG_7431](https://github.com/user-attachments/assets/8b822359-934b-4900-8b96-93a3fc72b2aa)
 
-- Settings > Apps VPN mode > Bypass: Chọn Termux và các apps sẽ không chạy VPN hoặc lỗi khi bật VPN (VD: droidVNC-NG)
+- Settings > Apps VPN mode > Bypass: Chọn Termux và các apps sẽ không cần chạy VPN hoặc lỗi khi bật VPN (VD: droidVNC-NG)
 
 ![IMG_7430](https://github.com/user-attachments/assets/0bf1a2be-867b-4bc4-a370-092d237efd66)
 
