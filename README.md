@@ -4,10 +4,9 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 ## Các yêu cầu
 
-**Download Termux, Termux:Boot và NekoBox**
+**Download Termux và Termux:Boot**
 - [Termux](https://f-droid.org/packages/com.termux/)
 - [Termux:Boot](https://f-droid.org/packages/com.termux.boot/)
-- [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) (chưa root hoặc chọn cách đơn giản)
 
 ## Cài đặt Psiphon
 
@@ -54,6 +53,10 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 - Lưu ý: Nếu cài đặt bị lỗi, vui lòng gỡ bỏ BFM và cài đặt lại module.
 
 ## CÀI ĐẶT CHO MÁY CHƯA ROOT VÀ ĐÃ ROOT ĐƠN GIẢN
+
+**Tải và cài đặt NekoBox**
+
+- [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)
 
 **Bước 1: Thiết lập NekoBox**
 
