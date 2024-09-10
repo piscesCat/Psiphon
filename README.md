@@ -35,7 +35,7 @@ Free data chỉ dành cho mạng Viettel (Việt Nam) và các thiết bị Andr
 
 ![IMG_7432](https://github.com/user-attachments/assets/d5255011-5ff9-45bd-bd94-d6b9437ebf85)
 
-- Lưu lại và bấm Connect
+- Lưu lại, chọn Profile vừa tạo và bấm Connect
 
     
 **Bước 2: Mở Termux và chạy lần đầu**
