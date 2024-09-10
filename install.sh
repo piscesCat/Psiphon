@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if ! command -v curl &> /dev/null; then
-    echo "Installing curl..."
-    pkg install curl -y
-fi
-
 if ! command -v tar &> /dev/null; then
     echo "Installing tar..."
     pkg install tar -y
