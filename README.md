@@ -9,7 +9,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 - [Termux:Boot](https://f-droid.org/packages/com.termux.boot/)
 - [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)
 
-## Cài đặt
+## Cài đặt Psiphon
 
 **Mở Termux và chạy:**
 
