@@ -44,9 +44,9 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
    ```bash
    su -c "mv -f $(realpath ~)/bfm-settings.ini /data/adb/box/settings.ini && mv -f $(realpath ~)/psiphon/bfm-clash-config.yaml /data/adb/box/clash/config.yaml"
    ```
-5. Khởi động lại BFM
+5. Khởi động Psiphon và restart BFM
    ```bash
-   su -c /data/adb/box/scripts/box.service restart
+   su -c /data/adb/box/scripts/box.service restart && psiphon-tun
    ```
 
 - Bây giờ Psiphon sẽ được chạy ngầm hoàn toàn trên thiết bị của bạn.
