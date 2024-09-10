@@ -51,8 +51,6 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 - [BoxForMagisk](https://github.com/taamarin/box_for_magisk/releases)
 
-Dưới đây là hướng dẫn đã được sửa lại để thực hiện việc chỉnh sửa file trực tiếp, sau đó mới di chuyển file vào đích cuối cùng:
-
 **Thực hiện các lệnh sau trên Termux lần lượt như sau:**
 
 1. Tải file cấu hình `settings.ini` của BFM:
