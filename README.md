@@ -43,7 +43,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
    sed -i 's/^packages_list=.*/packages_list=( "com.termux" )/' $(realpath ~)/bfm-settings.ini
    ```
 
-4. Di chuyển file cấu hình đã chỉnh sửa vào thư mục BFM:
+4. Di chuyển file cấu hình vào thư mục BFM:
    ```bash
    su -c "mv -f $(realpath ~)/bfm-settings.ini /data/adb/box/settings.ini && mv -f $(realpath ~)/psiphon/bfm-clash-config.yaml /data/adb/box/clash/config.yaml"
    ```
