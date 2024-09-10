@@ -59,7 +59,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 - Lưu ý: Nếu cài đặt bị lỗi, vui lòng gỡ bỏ BFM và cài đặt lại module.
 
-## CÀI ĐẶT CHO MÁY CHƯA ROOT:
+## CÀI ĐẶT CHO MÁY CHƯA ROOT VÀ ĐÃ ROOT ĐƠN GIẢN
 
 **Bước 1: Thiết lập NekoBox**
 
