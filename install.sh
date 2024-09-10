@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/data/data/com.termux/files/usr/bin/sh
 
 if ! command -v tar &> /dev/null; then
     pkg install tar -y
