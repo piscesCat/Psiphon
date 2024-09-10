@@ -14,7 +14,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 - Lệnh này đã kèm cài đặt tự khởi chạy trên Termux:Boot. Khi bạn khởi động lại máy `psiphon-tun` sẽ tự khởi chạy.
 
-- Khởi chạy thủ công
+**Khởi chạy thủ công:**
     ```bash
     psiphon-tun
     ```
