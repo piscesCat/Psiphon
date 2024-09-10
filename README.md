@@ -31,7 +31,7 @@ Free data chỉ dành cho mạng Viettel (Việt Nam) và các thiết bị Andr
 
 ![IMG_7429](https://github.com/user-attachments/assets/d3640353-f435-4c80-85bc-c4217e135d6b)
 
-- Dấu (+) > Manual Settings > SOCKS > Profile Name (tên bất kỳ): Version SOCKS5, Server 127.0.0.1, Port 1080
+- Dấu (+) > Manual Settings > SOCKS > Profile Name (tên bất kỳ), Version SOCKS5, Server 127.0.0.1, Port 1080
 
 ![IMG_7432](https://github.com/user-attachments/assets/d5255011-5ff9-45bd-bd94-d6b9437ebf85)
 
