@@ -12,7 +12,7 @@ Chỉ dành cho mạng Viettel (Việt Nam) và thiết bị Android.
 
 **Mở Termux và chạy:**
 
-    pkg install -y curl && curl -L https://github.com/piscesCat/Psiphon/raw/khaiphan/install.sh | bash
+    pkg install -y curl && curl -s -L https://github.com/piscesCat/Psiphon/raw/khaiphan/install.sh | bash
     
 ## Cấu hình & Cách sử dụng:
 
