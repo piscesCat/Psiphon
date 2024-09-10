@@ -62,7 +62,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 - [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)
 
-**Bước 1: Thiết lập NekoBox**
+**Thiết lập NekoBox**
 
 - Settings > Direct DNS: `203.113.131.6` hoặc `203.113.131.1`
 
@@ -81,12 +81,6 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 ![IMG_7432](https://github.com/user-attachments/assets/d5255011-5ff9-45bd-bd94-d6b9437ebf85)
 
 - Lưu lại, chọn Profile vừa tạo và bấm Connect
-
-    
-**Bước 2: Mở Termux và chạy lần đầu**
-
-- Nhập `psiphon-tun` và enter
-- Enjoy!
 
 **NOTE:**
 
