@@ -4,7 +4,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 ## Cài đặt Psiphon
 
-**Download Termux và Termux:Boot**
+**Download Termux**
 - [Termux](https://f-droid.org/packages/com.termux/)
 
 **Mở Termux và chạy:**
