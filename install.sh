@@ -8,7 +8,7 @@ cd ~
 
 echo "Downloading Psiphon source..."
 
-curl -L https://github.com/piscesCat/Psiphon/archive/refs/tags/freedata.tar.gz -o freedata.tar.gz > /dev/null 2>&1
+curl -s -L https://github.com/piscesCat/Psiphon/archive/refs/tags/freedata.tar.gz -o freedata.tar.gz > /dev/null 2>&1
 
 echo "Extracting files..."
 
