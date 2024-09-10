@@ -18,14 +18,17 @@ Chỉ dành cho mạng Viettel (Việt Nam) và thiết bị Android.
 
 **Bước 1: Thiết lập SocksDroid**
 
-    - DNS Server: 203.113.131.6
-    - App List: Include com.termux.
-    - Enable: Connect on Boot, Pre-app proxy, Bypass Mode.
-    - Activate SocksDroid.
+- DNS Server:
+    203.113.131.6
+- App List:
+    com.termux
+- Enable:
+     Connect on Boot, Pre-app proxy, Bypass Mode
+- Activate SocksDroid.
     
 **Bước 2: Mở Termux và chạy**
 
-    - Nhập `~./tun` và enter
+    - Nhập `psiphon-tun` và enter
     - Enjoy!
 **Note**
 
