@@ -1,14 +1,12 @@
 # RE Brainfuck Tunnel - Psiphon Pro Go Version
 
-Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) và các thiết bị Android. Tuy nhiên, tốc độ và ping không được tốt do giới hạn của gói Psiphon free. Có thể cần dữ liệu để cài đặt các gói ở lần đầu.
+Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) và các thiết bị Android. Tuy nhiên, tốc độ và ping không được tốt do giới hạn của gói Psiphon free. Cần dữ liệu để cài đặt các gói ở lần đầu.
 
-## Các yêu cầu
+## Cài đặt Psiphon
 
 **Download Termux và Termux:Boot**
 - [Termux](https://f-droid.org/packages/com.termux/)
 - [Termux:Boot](https://f-droid.org/packages/com.termux.boot/)
-
-## Cài đặt Psiphon
 
 **Mở Termux và chạy:**
 
