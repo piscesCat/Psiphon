@@ -9,7 +9,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 **Mở Termux và chạy:**
 
-    pkg install -y curl > /dev/null 2>&1 && curl -s -L https://github.com/piscesCat/Psiphon/raw/khaiphan/install.sh | bash
+    pkg install -y curl screen > /dev/null 2>&1 && curl -s -L https://github.com/piscesCat/Psiphon/raw/khaiphan/install.sh | bash
 
 **Khởi chạy thủ công:**
 
