@@ -7,14 +7,12 @@ Chỉ dành cho mạng Viettel (Việt Nam) và thiết bị Android.
 **Download Termux và SocksDroid**
 - [Termux](https://f-droid.org/packages/com.termux/)
 - [SocksDroid](https://github.com/bndeff/socksdroid/releases)
-- Termux: curl
-   pkg install curl -y
 
 ## Cài đặt
 
 **Mở Termux và chạy:**
 
-    pkg install -y wget tar && cd ~ && wget -O psiphon.tar.gz https://github.com/piscesCat/Psiphon/archive/refs/tags/psiphon.tar.gz && tar -xvzf psiphon.tar.gz && cd Psiphon-psiphon && chmod a+x tun && chmod a+x psiphon-tunnel-core && echo 'PATH="$PATH:$HOME/Psiphon-psiphon"' >> $HOME/.bashrc && source $HOME/.bashrc && echo 'PATH="$PATH:$HOME/Psiphon-psiphon"' >> $HOME/.zshrc && source $HOME/.zshrc && clear && cd
+    pkg install -y curl && curl -L https://github.com/piscesCat/Psiphon/raw/khaiphan/install.sh | bash
     
 ## Cấu hình & Cách sử dụng:
 
