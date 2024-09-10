@@ -14,36 +14,8 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 **Mở Termux và chạy:**
 
     pkg install -y curl > /dev/null 2>&1 && curl -s -L https://github.com/piscesCat/Psiphon/raw/khaiphan/install.sh | bash
-    
-## Cấu hình & Cách sử dụng:
 
-**Bước 1: Thiết lập NekoBox**
-
-- Settings > Direct DNS: `203.113.131.6` hoặc `203.113.131.1`
-
-![IMG_7431](https://github.com/user-attachments/assets/8b822359-934b-4900-8b96-93a3fc72b2aa)
-
-- Settings > Apps VPN mode > Bypass: Chọn Termux và các apps không cần chạy VPN hoặc lỗi khi bật VPN (VD: droidVNC-NG)
-
-![IMG_7430](https://github.com/user-attachments/assets/0bf1a2be-867b-4bc4-a370-092d237efd66)
-
-- Settings: Bật Auto Connect
-
-![IMG_7429](https://github.com/user-attachments/assets/d3640353-f435-4c80-85bc-c4217e135d6b)
-
-- Dấu (+) > Manual Settings > SOCKS > Profile Name (tên bất kỳ), Version SOCKS5, Server 127.0.0.1, Port 1080
-
-![IMG_7432](https://github.com/user-attachments/assets/d5255011-5ff9-45bd-bd94-d6b9437ebf85)
-
-- Lưu lại, chọn Profile vừa tạo và bấm Connect
-
-    
-**Bước 2: Mở Termux và chạy lần đầu**
-
-- Nhập `psiphon-tun` và enter
-- Enjoy!
-
-## Cài đặt cho máy đã root
+## CÀI ĐẶT CHO MÁY ĐÃ ROOT
 
 - Nếu điện thoại bạn đã root có thể bỏ qua NekoBox. Sau khi cài đặt Psiphon, làm tiếp các như sau.
 
@@ -85,7 +57,35 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 - Bây giờ Psiphon sẽ được chạy ngầm hoàn toàn trên thiết bị của bạn.
 
-- Lưu ý: Script cài đặt này chỉ tương thích với BFM được cài đặt mới. Nếu bạn đang cài đặt BFM trên thiết bị, vui lòng gỡ bỏ BFM và cài đặt lại module.
+- Lưu ý: Nếu cài đặt bị lỗi, vui lòng gỡ bỏ BFM và cài đặt lại module.
+
+## CÀI ĐẶT CHO MÁY CHƯA ROOT:
+
+**Bước 1: Thiết lập NekoBox**
+
+- Settings > Direct DNS: `203.113.131.6` hoặc `203.113.131.1`
+
+![IMG_7431](https://github.com/user-attachments/assets/8b822359-934b-4900-8b96-93a3fc72b2aa)
+
+- Settings > Apps VPN mode > Bypass: Chọn Termux và các apps không cần chạy VPN hoặc lỗi khi bật VPN (VD: droidVNC-NG)
+
+![IMG_7430](https://github.com/user-attachments/assets/0bf1a2be-867b-4bc4-a370-092d237efd66)
+
+- Settings: Bật Auto Connect
+
+![IMG_7429](https://github.com/user-attachments/assets/d3640353-f435-4c80-85bc-c4217e135d6b)
+
+- Dấu (+) > Manual Settings > SOCKS > Profile Name (tên bất kỳ), Version SOCKS5, Server 127.0.0.1, Port 1080
+
+![IMG_7432](https://github.com/user-attachments/assets/d5255011-5ff9-45bd-bd94-d6b9437ebf85)
+
+- Lưu lại, chọn Profile vừa tạo và bấm Connect
+
+    
+**Bước 2: Mở Termux và chạy lần đầu**
+
+- Nhập `psiphon-tun` và enter
+- Enjoy!
 
 **NOTE:**
 
