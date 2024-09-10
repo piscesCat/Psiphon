@@ -4,10 +4,9 @@ Chỉ dành cho mạng Viettel (Việt Nam) và thiết bị Android.
 
 ## Các yêu cầu
 
-**Download Termux và SocksDroid [Ở đây](https://trongtinh7727-my.sharepoint.com/:f:/g/personal/tinhne_trongtinh7727_onmicrosoft_com/EhA2kJ7nk9BLiStnHO8fXNYBgniadOd-FrHQuvWm1vML2g?e=ZKIhxM "Link download")**
-
-    - Termux
-    - SocksDroid
+**Download Termux và SocksDroid**
+- [Termux](https://f-droid.org/packages/com.termux/))
+- [SocksDroid](https://github.com/bndeff/socksdroid/releases)
 
 ## Cài đặt
 
