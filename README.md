@@ -51,9 +51,17 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 - [BoxForMagisk](https://github.com/taamarin/box_for_magisk/releases)
 
-**Chạy lệnh này trên Termux**
+**Chạy lần lượt các lệnh sau trên Termux**
 
-    curl -s -L https://github.com/piscesCat/Psiphon/raw/khaiphan/install-for-bfm.sh | bash
+    curl -o "$(realpath ~)/bfm-settings.ini" https://raw.githubusercontent.com/taamarin/box_for_magisk/master/box/settings.ini
+
+    su -c "mv -f $(realpath ~)/bfm-settings.ini /data/adb/box/settings.ini"
+
+    su -c "sed -i 's/^ignore_out_list=.*/ignore_out_list=( \"wlan+\" )/' /data/adb/box/settings.ini"
+
+    su -c "sed -i 's/^packages_list=.*/packages_list=( \"com.termux\" )/' /data/adb/box/settings.ini"
+
+    su -c "mv -f $(realpath ~)/psiphon/bfm-clash-config.yaml /data/adb/box/clash/config.yaml"
 
 - Khởi động lại thiết bị
 
