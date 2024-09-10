@@ -84,7 +84,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 **NOTE:**
 
-- Ở một số thiết bị `psiphon-tun` và NekoBox không tự khởi động hãy chạy nó thủ công như các bước trên.
+- Ở một số thiết bị `psiphon-tun` hoặc NekoBox không tự khởi động hãy chạy nó thủ công như các bước trên.
 - Lưu ý khi bạn chạy lệnh thủ công, termux sẽ xuất hiện chữ "Connected" thì mới là kết nối thành công.
 
 ![IMG_7428](https://github.com/user-attachments/assets/f7db9ec9-33e4-4d53-9e3a-10480e7a70af)
