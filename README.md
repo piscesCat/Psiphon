@@ -16,9 +16,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 **Khởi chạy thủ công:**
 
-    ```bash
     psiphon-tun
-    ```
 
 ## CÀI ĐẶT CHO MÁY ĐÃ ROOT
 
