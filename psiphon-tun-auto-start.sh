@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/sh
 termux-wake-lock
 echo "Running script at boot..."
-~/psiphon/psiphon-tun
+screen -dmS psiphon bash -c '~/psiphon/psiphon-tun'
 termux-wake-unlock
