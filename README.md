@@ -43,6 +43,24 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 - Nhập `psiphon-tun` và enter
 - Enjoy!
 
+## Cài đặt cho máy đã root
+
+- Nếu điện thoại bạn đã root có thể bỏ qua NekoBox. Sau khi cài đặt Psiphon, làm tiếp các như sau.
+
+**Tải và cài đặt module Magisk/APatch Box For Magisk**
+
+- [BoxForMagisk](https://github.com/taamarin/box_for_magisk/releases)
+
+**Chạy lệnh này trên Termux**
+
+    curl -s -L https://github.com/piscesCat/Psiphon/raw/khaiphan/install-for-bfm.sh | bash
+
+- Khởi động lại thiết bị
+
+- Bây giờ Psiphon sẽ được chạy ngầm hoàn toàn trên thiết bị của bạn.
+
+- Lưu ý: Script cài đặt này chỉ tương thích với BFM được cài đặt mới. Nếu bạn đang cài đặt BFM trên thiết bị, vui lòng gỡ bỏ BFM và cài đặt lại module.
+
 **NOTE:**
 
 - Script này đã kèm cài đặt trên Termux:Boot. Khi bạn khởi động lại máy `psiphon-tun` sẽ tự động khởi động. Ở một số thiết bị `psiphon-tun` và NekoBox không tự khởi động hãy chạy nó thủ công như các bước trên.
