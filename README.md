@@ -6,19 +6,20 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 **Download Termux và Termux:Boot**
 - [Termux](https://f-droid.org/packages/com.termux/)
-- [Termux:Boot](https://f-droid.org/packages/com.termux.boot/)
 
 **Mở Termux và chạy:**
 
     pkg install -y curl > /dev/null 2>&1 && curl -s -L https://github.com/piscesCat/Psiphon/raw/khaiphan/install.sh | bash
 
-- Lệnh này đã kèm cài đặt tự khởi chạy trên Termux:Boot. Khi bạn khởi động lại máy `psiphon-tun` sẽ tự khởi chạy.
-
 **Khởi chạy thủ công:**
 
     psiphon-tun
 
-## CÀI ĐẶT CHO MÁY ĐÃ ROOT
+**Khởi chạy tự động:**
+
+- Xem phía dưới.
+
+## SỬ DỤNG CHO MÁY ĐÃ ROOT
 
 - Nếu điện thoại bạn đã root có thể bỏ qua NekoBox. Sau khi cài đặt Psiphon, làm tiếp các như sau.
 
@@ -56,7 +57,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 - Lưu ý: Nếu cài đặt bị lỗi, vui lòng gỡ bỏ BFM và cài đặt lại module.
 
-## CÀI ĐẶT CHO MÁY CHƯA ROOT VÀ ĐÃ ROOT ĐƠN GIẢN
+## SỬ DỤNG CHO CẢ MÁY CHƯA ROOT VÀ ĐÃ ROOT ĐƠN GIẢN
 
 **Tải và cài đặt NekoBox**
 
