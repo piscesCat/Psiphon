@@ -12,6 +12,13 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
     pkg install -y curl > /dev/null 2>&1 && curl -s -L https://github.com/piscesCat/Psiphon/raw/khaiphan/install.sh | bash
 
+- Lệnh này đã kèm cài đặt tự khởi chạy trên Termux:Boot. Khi bạn khởi động lại máy `psiphon-tun` sẽ tự khởi chạy.
+
+- Khởi chạy thủ công
+    ```bash
+    psiphon-tun
+    ```
+
 ## CÀI ĐẶT CHO MÁY ĐÃ ROOT
 
 - Nếu điện thoại bạn đã root có thể bỏ qua NekoBox. Sau khi cài đặt Psiphon, làm tiếp các như sau.
@@ -41,9 +48,9 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
    ```bash
    su -c "mv -f $(realpath ~)/bfm-settings.ini /data/adb/box/settings.ini && mv -f $(realpath ~)/psiphon/bfm-clash-config.yaml /data/adb/box/clash/config.yaml"
    ```
-5. Khởi động Psiphon và restart BFM
+5. Khởi động lại BFM
    ```bash
-   su -c /data/adb/box/scripts/box.service restart && psiphon-tun
+   su -c /data/adb/box/scripts/box.service restart
    ```
 
 - Bây giờ Psiphon sẽ được chạy ngầm hoàn toàn trên thiết bị của bạn.
@@ -84,7 +91,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 **NOTE:**
 
-- Script này đã kèm cài đặt trên Termux:Boot. Khi bạn khởi động lại máy `psiphon-tun` sẽ tự động khởi động. Ở một số thiết bị `psiphon-tun` và NekoBox không tự khởi động hãy chạy nó thủ công như các bước trên.
+- Ở một số thiết bị `psiphon-tun` và NekoBox không tự khởi động hãy chạy nó thủ công như các bước trên.
 - Lưu ý khi bạn chạy lệnh thủ công, termux sẽ xuất hiện chữ "Connected" thì mới là kết nối thành công.
 
 ![IMG_7428](https://github.com/user-attachments/assets/f7db9ec9-33e4-4d53-9e3a-10480e7a70af)
