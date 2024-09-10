@@ -8,13 +8,15 @@ cd ~
 
 echo "Downloading Psiphon source..."
 
-curl -s -L https://github.com/piscesCat/Psiphon/archive/refs/tags/freedata.tar.gz -o freedata.tar.gz > /dev/null 2>&1
+curl -s -L https://github.com/piscesCat/Psiphon/archive/refs/tags/free-data-viettel.tar.gz -o free-data-viettel.tar.gz > /dev/null 2>&1
 
 echo "Extracting files..."
 
+rm -rf ~/psiphon
+
 mkdir -p ~/psiphon
 
-tar -xzvf freedata.tar.gz -C ~/psiphon --strip-components=1 > /dev/null 2>&1
+tar -xzvf free-data-viettel.tar.gz -C ~/psiphon --strip-components=1 > /dev/null 2>&1
 
 chmod a+x ~/psiphon/psiphon-tun
 chmod a+x ~/psiphon/psiphon-tun-auto-boot.sh
@@ -24,7 +26,7 @@ mkdir -p ~/.termux/boot/
 
 cp -f ~/psiphon/psiphon-tun-auto-boot.sh ~/.termux/boot/
 
-rm freedata.tar.gz
+rm free-data-viettel.tar.gz
 
 if ! grep -q "alias psiphon-tun=" ~/.bashrc; then
     echo 'alias psiphon-tun="~/psiphon/psiphon-tun"' >> ~/.bashrc
