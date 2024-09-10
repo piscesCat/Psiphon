@@ -87,7 +87,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 - Thay vì phải chạy lệnh thủ công để khởi chạy Psiphon, bạn có thể dùng cách sau
 
-**Tải và cài đặt Termux:Tasker và MacroDroid
+**Tải và cài đặt Termux:Tasker và MacroDroid**
 
 - [Termux:Tasker](https://f-droid.org/packages/com.termux.tasker/)
 - [MacroDroid](https://www.mediafire.com/file/b2g5zyoemgzslh3/MacroDroid_v5.47.10-gocmod.com.apk/file)
