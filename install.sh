@@ -8,11 +8,13 @@ cd ~
 
 echo "Downloading Psiphon source..."
 
-curl -L https://github.com/piscesCat/Psiphon/archive/refs/tags/freedata.tar.gz -o freedata.tar.gz --progress-bar
+curl -L https://github.com/piscesCat/Psiphon/archive/refs/tags/freedata.tar.gz -o freedata.tar.gz > /dev/null 2>&1
+
+echo "Extracting files..."
 
 mkdir -p ~/psiphon
 
-tar -xzvf freedata.tar.gz -C ~/psiphon --strip-components=1
+tar -xzvf freedata.tar.gz -C ~/psiphon --strip-components=1 > /dev/null 2>&1
 
 chmod a+x ~/psiphon/psiphon-tun
 chmod a+x ~/psiphon/psiphon-tunnel-core
