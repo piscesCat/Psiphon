@@ -1,6 +1,6 @@
 # RE Brainfuck Tunnel - Psiphon Pro Go Version
 
-Free data chỉ dành cho mạng Viettel (Việt Nam) và thiết bị Android. Có thể cần dữ liệu để cài đặt các gói ở lần đầu.
+Free data chỉ dành cho mạng Viettel (Việt Nam) và các thiết bị Android. Có thể cần dữ liệu để cài đặt các gói ở lần đầu.
 
 ## Các yêu cầu
 
@@ -30,7 +30,7 @@ Free data chỉ dành cho mạng Viettel (Việt Nam) và thiết bị Android. 
 
 **NOTE:**
 
-Bạn cần chạy `psiphon-tun` và kích hoạt NekoBox mỗi lần khởi động lại điện thoại. Lưu ý termux sẽ xuất hiện chữ "connected" thì mới là kết nối thành công.
+Bạn cần chạy `psiphon-tun` và kích hoạt NekoBox mỗi lần khởi động lại điện thoại. Lưu ý termux sẽ xuất hiện chữ "connected" thì mới là kết nối thành công. Sử dụng Termux Boot và MacroDroid nếu bạn muốn tự động hoàn toàn khi thiết bị được khởi động.
     
 
 ![image](https://github.com/trongtinh7727/Psiphon/assets/72309458/af561b91-d232-4798-b01c-ffacd913a901)
