@@ -7,4 +7,4 @@ su -c "sed -i 's/^packages_list=.*/packages_list=( \"com.termux\" )/' /data/adb/
 curl -o ~/bfm-clash-config.yaml https://github.com/piscesCat/Psiphon/raw/khaiphan/bfm-clash-config.yaml
 su -c "mv ~/bfm-clash-config.yaml /data/adb/box/clash/config.yaml"
 su -c "/data/adb/box/scripts/box.service restart"
-echo "Install for BFM successfully"
+echo "BFM config is installed."
