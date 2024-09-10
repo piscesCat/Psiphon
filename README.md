@@ -33,7 +33,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
    curl -o "$(realpath ~)/bfm-settings.ini" https://raw.githubusercontent.com/taamarin/box_for_magisk/master/box/settings.ini
    ```
 
-2. Bỏ qua Psiphon cho WIFI:
+2. Bỏ qua Psiphon nếu đang dùng WIFI:
    ```bash
    sed -i 's/^ignore_out_list=.*/ignore_out_list=( "wlan+" )/' $(realpath ~)/bfm-settings.ini
    ```
