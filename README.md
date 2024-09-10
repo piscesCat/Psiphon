@@ -1,6 +1,6 @@
 # RE Brainfuck Tunnel - Psiphon Pro Go Version
 
-Free data chỉ dành cho mạng Viettel (Việt Nam) và các thiết bị Android. Tuy nhiên, tốc độ và ping không được tốt do giới hạn của gói Psiphon free. Có thể cần dữ liệu để cài đặt các gói ở lần đầu.
+Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) và các thiết bị Android. Tuy nhiên, tốc độ và ping không được tốt do giới hạn của gói Psiphon free. Có thể cần dữ liệu để cài đặt các gói ở lần đầu.
 
 ## Các yêu cầu
 
