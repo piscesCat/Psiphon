@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/data/data/com.termux/files/usr/bin/sh
 
 curl -o ~/bfm-settings.ini https://raw.githubusercontent.com/taamarin/box_for_magisk/master/box/settings.ini
 su -c "mv ~/bfm-settings.ini /data/adb/box/settings.ini"
