@@ -1,24 +1,27 @@
 #!/bin/bash
 
 if ! command -v tar &> /dev/null; then
-    echo "Installing tar..."
     pkg install tar -y
 fi
 
-cd /tmp
+if ! command -v curl &> /dev/null; then
+    pkg install curl -y
+fi
+
+cd ~
 
 echo "Downloading Psiphon source..."
 
-curl -L https://github.com/piscesCat/Psiphon/archive/refs/tags/psiphon.tar.gz -o psiphon.tar.gz --progress-bar
+curl -L https://github.com/piscesCat/Psiphon/archive/refs/tags/freedata.tar.gz -o freedata.tar.gz --progress-bar
 
 mkdir -p ~/psiphon
 
-tar -xzvf psiphon.tar.gz -C ~/psiphon --strip-components=1
+tar -xzvf freedata.tar.gz -C ~/psiphon --strip-components=1
 
 chmod a+x ~/psiphon/psiphon-tun
 chmod a+x ~/psiphon/psiphon-tunnel-core
 
-rm psiphon.tar.gz
+rm freedata.tar.gz
 
 if ! grep -q "alias psiphon-tun=" ~/.bashrc; then
     echo 'alias psiphon-tun="~/psiphon/psiphon-tun"' >> ~/.bashrc
