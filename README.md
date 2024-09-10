@@ -31,7 +31,7 @@ Free data chỉ dành cho mạng Viettel (Việt Nam) và các thiết bị Andr
 
 **NOTE:**
 
-Script đã tự cài đặt tự khởi động trên Termux:Boot. Khi bạn khởi động lại máy `psiphon-tun` sẽ tự động khởi động. Nếu `psiphon-tun` và NekoBox không tự khởi động hãy chạy nó thủ công. Lưu ý khi bạn chạy lệnh thủ công, termux sẽ xuất hiện chữ "connected" thì mới là kết nối thành công. Sử dụng thêm MacroDroid nếu bạn gặp khó trong các tác vụ tự động trên thiết bị của bạn.
+Script này đã kèm cài đặt trên Termux:Boot. Khi bạn khởi động lại máy `psiphon-tun` sẽ tự động khởi động. Nếu `psiphon-tun` và NekoBox không tự khởi động hãy chạy nó thủ công. Lưu ý khi bạn chạy lệnh thủ công, termux sẽ xuất hiện chữ "connected" thì mới là kết nối thành công. Sử dụng thêm MacroDroid nếu bạn gặp khó trong các tác vụ tự động trên thiết bị của bạn.
     
 
 ![image](https://github.com/trongtinh7727/Psiphon/assets/72309458/af561b91-d232-4798-b01c-ffacd913a901)
