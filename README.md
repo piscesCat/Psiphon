@@ -80,7 +80,10 @@ Dưới đây là hướng dẫn đã được sửa lại để thực hiện v
    su -c "mv -f $(realpath ~)/psiphon/bfm-clash-config.yaml /data/adb/box/clash/config.yaml"
    ```
 
-- Khởi động lại thiết bị
+6. Khởi động lại BFM
+   ```bash
+   su -c /data/adb/box/scripts/box.service start
+   ```
 
 - Bây giờ Psiphon sẽ được chạy ngầm hoàn toàn trên thiết bị của bạn.
 
