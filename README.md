@@ -83,9 +83,22 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 - Lưu lại, chọn Profile vừa tạo và bấm Connect
 
+## CHẠY PSIPHON TỰ ĐỘNG KHI KHỞI ĐỘNG THIẾT BỊ
+
+- Thay vì phải chạy lệnh thủ công để khởi chạy Psiphon, bạn có thể dùng cách sau
+
+**Tải và cài đặt Termux:Tasker và MacroDroid
+
+- [Termux:Tasker](https://f-droid.org/packages/com.termux.tasker/)
+- [MacroDroid](https://www.mediafire.com/file/b2g5zyoemgzslh3/MacroDroid_v5.47.10-gocmod.com.apk/file)
+- [Macro Tự Khởi Chạy](https://github.com/piscesCat/Psiphon/releases/download/viettel-free-data/Auto_Start_Psiphon.macro)
+
+**Các bước tiến hành:**
+
+- ...
+
 **NOTE:**
 
-- Ở một số thiết bị `psiphon-tun` hoặc NekoBox không tự khởi động hãy chạy nó thủ công như các bước trên.
 - Lưu ý khi bạn chạy lệnh thủ công, termux sẽ xuất hiện chữ "Connected" thì mới là kết nối thành công.
 
 ![IMG_7428](https://github.com/user-attachments/assets/f7db9ec9-33e4-4d53-9e3a-10480e7a70af)
