@@ -33,4 +33,4 @@ proxy-groups:
       - PSIPHON
       - DIRECT
 rules:
-  - MATCH,GLOBALSSH-ELITETUNNEL
+  - MATCH,KHAIPHAN
