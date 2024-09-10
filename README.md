@@ -7,6 +7,8 @@ Chỉ dành cho mạng Viettel (Việt Nam) và thiết bị Android.
 **Download Termux và SocksDroid**
 - [Termux](https://f-droid.org/packages/com.termux/)
 - [SocksDroid](https://github.com/bndeff/socksdroid/releases)
+- Termux: curl
+   pkg install curl -y
 
 ## Cài đặt
 
