@@ -51,29 +51,31 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 - [BoxForMagisk](https://github.com/taamarin/box_for_magisk/releases)
 
+Dưới đây là hướng dẫn đã được sửa lại để thực hiện việc chỉnh sửa file trực tiếp, sau đó mới di chuyển file vào đích cuối cùng:
+
 **Thực hiện các lệnh sau trên Termux lần lượt như sau:**
 
-1. Tải file cấu hình `settings.ini` về thư mục gốc của Termux:
+1. Tải file cấu hình `settings.ini` của BFM:
    ```bash
    curl -o "$(realpath ~)/bfm-settings.ini" https://raw.githubusercontent.com/taamarin/box_for_magisk/master/box/settings.ini
    ```
 
-2. Di chuyển file cấu hình vừa tải vào thư mục `/data/adb/box/`:
+2. Bỏ qua Psiphon cho WIFI:
+   ```bash
+   sed -i 's/^ignore_out_list=.*/ignore_out_list=( "wlan+" )/' $(realpath ~)/bfm-settings.ini
+   ```
+
+3. Bỏ qua Termux khi chạy VPN:
+   ```bash
+   sed -i 's/^packages_list=.*/packages_list=( "com.termux" )/' $(realpath ~)/bfm-settings.ini
+   ```
+
+4. Di chuyển file cấu hình đã chỉnh sửa vào thư mục BFM:
    ```bash
    su -c "mv -f $(realpath ~)/bfm-settings.ini /data/adb/box/settings.ini"
    ```
 
-3. Chỉnh sửa file cấu hình để thêm thiết bị mạng WLAN vào danh sách `ignore_out_list`:
-   ```bash
-   su -c "sed -i 's/^ignore_out_list=.*/ignore_out_list=( \"wlan+\" )/' /data/adb/box/settings.ini"
-   ```
-
-4. Thêm Termux vào danh sách `packages_list` trong file cấu hình:
-   ```bash
-   su -c "sed -i 's/^packages_list=.*/packages_list=( \"com.termux\" )/' /data/adb/box/settings.ini"
-   ```
-
-5. Di chuyển file cấu hình Clash từ thư mục `psiphon` vào thư mục `/data/adb/box/clash/`:
+5. Di chuyển file cấu hình Clash vào thư mục BFM:
    ```bash
    su -c "mv -f $(realpath ~)/psiphon/bfm-clash-config.yaml /data/adb/box/clash/config.yaml"
    ```
