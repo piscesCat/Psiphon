@@ -9,7 +9,15 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 **Mở Termux và chạy:**
 
+- Cấp quyền lưu trữ cho Termux
+```bash
+    termux-setup-storage
+```
+
+- Chạy tiếp lệnh sau để cài đặt psiphon
+```bash
     pkg install -y curl screen > /dev/null 2>&1 && curl -s -L https://github.com/piscesCat/Psiphon/raw/khaiphan/install.sh | bash
+```
 
 **Khởi chạy thủ công:**
 
@@ -17,7 +25,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 **Khởi chạy tự động:**
 
-- Xem phía dưới.
+- Xem hướng dẫn tự khởi chạy Psiphon ở phía dưới cùng.
 
 ## SỬ DỤNG CHO MÁY ĐÃ ROOT
 
