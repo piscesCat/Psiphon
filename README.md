@@ -117,6 +117,7 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 - Nhập macro tự khởi chạy vào MacroDroid trong phần Nhập/Xuất trong app.
 
 - Bật công tắc macro để macro có hiệu lực
+
 **NOTE:**
 
 - Lưu ý khi bạn chạy lệnh thủ công, termux sẽ xuất hiện chữ "Connected" thì mới là kết nối thành công.
