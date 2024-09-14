@@ -103,16 +103,20 @@ Free data (0đ) không giới hạn chỉ dành cho mạng Viettel (Việt Nam) 
 
 **Các bước tiến hành:**
 
-- Cấp quyền MacroDroid bằng cách chạy lệnh sau trong Termux
+- Đối với máy đã root cấp quyền MacroDroid bằng cách chạy lệnh sau trong Termux
 
     ```bash
     su -c pm grant com.arlosoft.macrodroid com.termux.permission.RUN_COMMAND
+    ```
+- Đối với máy chưa root vào Cài đặt (Hệ thống) > Ứng dụng > MacroDroid > Quyền > Quyền nâng cao > Chọn "Cho phép" cho Termux Env hoặc sử dụng ADB bằng lệnh sau:
+
+    ```bash
+    adb shell pm grant com.arlosoft.macrodroid com.termux.permission.RUN_COMMAND
     ```
 
 - Nhập macro tự khởi chạy vào MacroDroid trong phần Nhập/Xuất trong app.
 
 - Bật công tắc macro để macro có hiệu lực
-
 **NOTE:**
 
 - Lưu ý khi bạn chạy lệnh thủ công, termux sẽ xuất hiện chữ "Connected" thì mới là kết nối thành công.
